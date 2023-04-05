@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* General Styling Start */
+:root {
+  --black-color: #1a1a1a;
+  --font-family: "Roboto", sans-serif;
+  --white-color: #fff;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.white-space-nowrap {
+  white-space: nowrap !important;
+}
+
+/* General Styling End */
+
+/* Navbar Start */
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 0.5rem 2rem !important;
+}
+
+.navbar-link .navbar-anchor,
+.navbar-anchor {
+  font-family: var(--font-family) !important;
+  color: var(--black-color) !important;
+  font-weight: 300 !important;
+  font-size: 15px !important;
+  cursor: pointer;
+}
+
+.home-logo {
+  color: var(--black-color) !important;
+}
+
+a.nav-link.navbar-anchor.active {
+  font-weight: 500 !important;
+}
+
+a.navbar-brand {
+  font-weight: 200 !important;
+}
+/* Navbar End */
+/* About Us Image and Text start */
+.about-us {
+  display: flex;
+}
+
+.about-us-left-half,
+.about-us-right-half {
+  width: 50vw;
+  height: 100vh;
+}
+
+.about-us-right-half {
+  position: relative;
+}
+
+.about-us-bg-image {
+  background-image: url("../images/about-us-background-image.jpeg");
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.about-us-caption {
+  position: absolute;
+  bottom: 5%;
+  left: 9%;
+  color: var(--white-color) !important;
+}
+
+.about-us-caption p {
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  font-size: 119.895px !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.about-us-right-half-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 72px;
+}
+
+.about-us-right-half-caption h2 {
+  font-weight: 500 !important;
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 1rem;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+}
+
+.about-us-right-half-caption p {
+  font-family: "Poppins", sans-serif !important;
+  margin-bottom: 1rem;
+  line-height: 25px;
+  letter-spacing: 0.7px;
+}
+/* About Us Image and Text end */
+/* tablet screen start */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .navbar-nav {
+    white-space: nowrap;
+  }
+  .navbar-toggler {
+    border: none;
+    font-family: var(--font-family) !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    margin: auto;
+    color: var(--black-color) !important;
+    box-shadow: none !important;
+  }
+  .width-10 {
+    width: 10%;
+  }
+
+  .width-70 {
+    width: 40%;
+  }
+
+  .language-button {
+    position: sticky;
+    right: 2rem;
+    top: 15px;
+  }
+
+  .about-us {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .about-us-left-half {
+    width: 100%;
+  }
+
+  /* .about-us-bg-image {
+    height: 50vh;
+  } */
+
+  .about-us-caption p {
+    font-size: 37.32px !important;
+  }
+
+  .about-us-right-half {
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 100%;
+    height: 50vh;
+    margin-top: 10rem;
+    margin-left: 3rem;
+  }
+
+  .about-us-right-half-caption {
+    padding: 0px !important;
+    display: block;
+    /* margin-top: 25rem;
+    margin-bottom: 0rem !important; */
+  }
+
+  .about-us-right-half-caption h2 {
+    font-size: 21.6px;
+    font-weight: 400;
+    line-height: 25.92px;
+    width: 90%;
+    margin-bottom: 2rem;
+    /* margin-top: 2rem; */
+  }
+
+  .about-us-right-half-caption p {
+    width: 90%;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navbar-toggler {
+    border: none;
+    font-family: var(--font-family) !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    margin: auto;
+    color: var(--black-color) !important;
+    box-shadow: none !important;
+  }
+  .width-10 {
+    width: 10%;
+  }
+
+  .width-70 {
+    width: 40%;
+  }
+
+  .language-button {
+    position: sticky;
+    right: 2rem;
+    top: 15px;
+  }
+
+  .about-us {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .about-us-left-half {
+    width: 100%;
+  }
+
+  .about-us-bg-image {
+    height: 50vh;
+  }
+
+  .about-us-caption p {
+    font-size: 37.32px !important;
+  }
+
+  .about-us-right-half {
+    width: 90%;
+    margin: 0 auto;
+    position: static;
+    height: 50vh;
+  }
+
+  .about-us-right-half-caption {
+    padding: 0px !important;
+    margin-top: 30rem;
+    margin-bottom: 0rem !important;
+  }
+
+  .about-us-right-half-caption h2 {
+    font-size: 21.6px;
+    font-weight: 400;
+    line-height: 25.92px;
+    width: 80%;
+    /* margin-top: 2rem; */
+  }
+
+  .about-us-right-half-caption p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 83%;
+  }
+}

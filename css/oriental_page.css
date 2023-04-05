@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* General Styling Start */
+:root {
+  --black-color: #1a1a1a;
+  --font-family: "Roboto", sans-serif;
+  --white-color: #fff;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+a.nav-link.navbar-anchor.active {
+  font-weight: 500 !important;
+}
+
+a.navbar-brand {
+  font-weight: 200 !important;
+}
+
+/* General Styling End */
+
+/* Navbar Start */
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 0.5rem 2rem !important;
+}
+
+.navbar-link .navbar-anchor,
+.navbar-anchor {
+  font-family: var(--font-family) !important;
+  color: var(--black-color) !important;
+  font-weight: 300 !important;
+  font-size: 15px !important;
+  cursor: pointer;
+}
+
+.home-logo {
+  color: var(--black-color) !important;
+}
+/* Navbar End */
+
+/* Hero section START */
+
+.hero-section {
+  background-image: url("../images/oriental_cover_hero.jpeg");
+  background-size: cover;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.hero-caption {
+  position: absolute;
+  bottom: 5%;
+  color: var(--white-color) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  font-size: 119.895px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Hero section END */
+
+/* arabesque & papiro section start */
+
+.arabesque,
+.papiro {
+  position: relative;
+}
+
+.arabesque-left-side,
+.papiro-left-side {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 37%;
+}
+
+.arabesque-left-side {
+  left: -1%;
+}
+
+.papiro-left-side {
+  left: -5%;
+}
+
+.arabesque-left-side h2,
+.papiro-left-side h2 {
+  text-align: right;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  font-size: 60px;
+  color: var(--black-color);
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+/* arabesque & papiro section end */
+
+/* paisley & tantra section start */
+
+.paisley,
+.tantra {
+  position: relative;
+}
+
+.paisley-right-side,
+.tantra-right-side {
+  position: absolute;
+  top: 50%;
+
+  transform: translateY(-50%);
+  width: 44%;
+}
+.paisley-right-side {
+  right: 15%;
+}
+.tantra-right-side {
+  right: 14%;
+}
+
+.paisley-right-side h2,
+.tantra-right-side h2 {
+  text-align: right;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  font-size: 60px;
+  color: var(--black-color);
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+/* paisley & tantra section end */
+
+/* tablet screen start */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .navbar-toggler {
+    border: none;
+    font-family: var(--font-family) !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    margin: auto;
+    color: var(--black-color) !important;
+    box-shadow: none !important;
+  }
+  .width-10 {
+    width: 10%;
+  }
+
+  .width-70 {
+    width: 40%;
+  }
+
+  .language-button {
+    position: sticky;
+    right: 2rem;
+    top: 15px;
+  }
+
+  .hero-caption {
+    font-size: 45.78px;
+  }
+
+  .col-md-6 {
+    width: 100% !important;
+  }
+
+  .my-flex-order {
+    flex-direction: column-reverse;
+  }
+
+  .my-flex-order-2 {
+    flex-direction: column;
+  }
+
+  .arabesque-left-side,
+  .paisley-right-side,
+  .papiro-left-side,
+  .tantra-right-side {
+    position: static;
+    top: 0%;
+    transform: none;
+    width: 100%;
+    right: 0%;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .arabesque-left-side h2,
+  .paisley-right-side h2,
+  .papiro-left-side h2,
+  .tantra-right-side h2 {
+    text-align: right;
+    margin: 2rem 0px;
+    font-size: 36.615px;
+  }
+
+  .arabesque-left-side p,
+  .paisley-right-side p,
+  .papiro-left-side p,
+  .tantra-right-side p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 0px;
+  }
+}
+
+/* Mobile screen  start */
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .navbar-toggler {
+    border: none;
+    font-family: var(--font-family) !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    margin: auto;
+    color: var(--black-color) !important;
+    box-shadow: none !important;
+  }
+  .width-10 {
+    width: 10%;
+  }
+
+  .width-70 {
+    width: 40%;
+  }
+
+  .language-button {
+    position: sticky;
+    right: 2rem;
+    top: 15px;
+  }
+
+  .hero-section {
+    height: 50vh;
+  }
+
+  .hero-caption {
+    font-size: 37.32px;
+  }
+
+  .my-flex-order {
+    flex-direction: column-reverse;
+  }
+
+  .my-flex-order-2 {
+    flex-direction: column;
+  }
+
+  .arabesque-left-side,
+  .paisley-right-side,
+  .papiro-left-side,
+  .tantra-right-side {
+    position: static;
+    top: 0%;
+    transform: none;
+    width: 100%;
+    right: 0%;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .arabesque-left-side h2,
+  .paisley-right-side h2,
+  .papiro-left-side h2,
+  .tantra-right-side h2 {
+    text-align: left;
+    margin: 2rem 0px;
+    font-size: 31.11px;
+  }
+
+  .arabesque-left-side p,
+  .paisley-right-side p,
+  .papiro-left-side p,
+  .tantra-right-side p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 0px;
+  }
+}
+/* Mobile screen  end*/
+
+/* media query end */

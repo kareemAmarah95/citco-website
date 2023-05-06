@@ -20,6 +20,14 @@ a {
   white-space: nowrap !important;
 }
 
+.width-30 {
+  width: 30%;
+}
+
+.width-32 {
+  width: 32%;
+}
+
 /* General Styling End */
 
 /* Navbar Start */
@@ -179,7 +187,13 @@ a.navbar-brand {
     margin: auto;
     color: var(--black-color) !important;
     box-shadow: none !important;
+    margin-right: 0px;
   }
+
+  .navbar-link-logo img {
+    width: 100% !important;
+  }
+
   .width-10 {
     width: 10%;
   }
@@ -227,6 +241,10 @@ a.navbar-brand {
     margin: auto;
     color: var(--black-color) !important;
     box-shadow: none !important;
+    margin-right: 0px;
+  }
+  .navbar-link-logo img {
+    width: 100% !important;
   }
   .width-10 {
     width: 10%;
@@ -235,7 +253,6 @@ a.navbar-brand {
   .width-70 {
     width: 40%;
   }
-
   .language-button {
     position: sticky;
     right: 2rem;

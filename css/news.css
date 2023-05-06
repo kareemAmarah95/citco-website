@@ -19,7 +19,12 @@ a {
 .white-space-nowrap {
   white-space: nowrap !important;
 }
-
+.width-30 {
+  width: 30%;
+}
+.width-32 {
+  width: 32%;
+}
 /* General Styling End */
 
 /* Navbar Start */
@@ -57,7 +62,7 @@ a.navbar-brand {
 }
 
 .col:nth-child(2) {
-  margin-top: -3.85%;
+  margin-top: -0.85%;
 }
 
 .col:nth-child(4) {
@@ -112,6 +117,10 @@ p.card-text {
     margin: auto;
     color: var(--black-color) !important;
     box-shadow: none !important;
+    margin-right: 0px;
+  }
+  .navbar-link-logo img {
+    width: 100% !important;
   }
   .width-10 {
     width: 10%;
@@ -138,6 +147,11 @@ p.card-text {
     margin: auto;
     color: var(--black-color) !important;
     box-shadow: none !important;
+    margin-right: 0px;
+  }
+
+  .navbar-link-logo img {
+    width: 100% !important;
   }
   .width-10 {
     width: 10%;

@@ -10,7 +10,15 @@
 body {
   overflow-x: hidden;
 }
-
+.width-30 {
+  width: 30% !important;
+}
+.width-32 {
+  width: 32% !important;
+}
+.width-5 {
+  width: 5% !important;
+}
 a {
   text-decoration: none !important;
   cursor: pointer !important;
@@ -58,7 +66,7 @@ a.nav-link.navbar-anchor.active {
 /* Hero section START */
 
 .hero-section {
-  background-image: url("../images/wall-features-cover.jpeg");
+  background-image: url("../images/wall-features/2.jpg");
   background-size: cover;
   position: relative;
   width: 100vw;
@@ -187,7 +195,13 @@ a.nav-link.navbar-anchor.active {
     margin: auto;
     color: var(--black-color) !important;
     box-shadow: none !important;
+    margin-right: 0px;
   }
+
+  .navbar-link-logo img {
+    width: 100% !important;
+  }
+
   .width-10 {
     width: 10%;
   }
@@ -262,12 +276,29 @@ a.nav-link.navbar-anchor.active {
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 300;
-    margin: auto;
+    margin-right: 0px !important;
+    margin-left: 0px;
+    margin-block-end: -1%;
     color: var(--black-color) !important;
     box-shadow: none !important;
   }
-  .width-10 {
-    width: 10%;
+
+  .navbar-link-logo img {
+    width: 100% !important;
+  }
+
+  .width-12 {
+    width: 12% !important;
+  }
+
+  .width-30 {
+    width: 30% !important;
+  }
+  .width-32 {
+    width: 32% !important;
+  }
+  .width-5 {
+    width: 5% !important;
   }
 
   .width-70 {

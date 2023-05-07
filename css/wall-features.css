@@ -212,6 +212,7 @@ a.navbar-brand {
 
   .carousel-item img {
     height: 55vh;
+    width: 35vw;
   }
   .carousel-indicators {
     bottom: 30% !important;
@@ -267,6 +268,7 @@ a.navbar-brand {
 
   .carousel-item img {
     height: 35vh;
+    width: 50vw;
   }
   .carousel-indicators {
     bottom: 37% !important;

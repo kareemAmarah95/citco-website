@@ -16,6 +16,14 @@ a {
   cursor: pointer !important;
 }
 
+.width-30 {
+  width: 30%;
+}
+
+.width-32 {
+  width: 32%;
+}
+
 a.nav-link.navbar-anchor.active {
   font-weight: 500 !important;
 }
@@ -173,6 +181,11 @@ a.navbar-brand {
     margin: auto;
     color: var(--black-color) !important;
     box-shadow: none !important;
+    margin-right: 0px;
+  }
+
+  .navbar-brand img {
+    width: 100%;
   }
   .width-10 {
     width: 10%;
@@ -251,7 +264,13 @@ a.navbar-brand {
     margin: auto;
     color: var(--black-color) !important;
     box-shadow: none !important;
+    margin-right: 0px;
   }
+
+  .navbar-brand img {
+    width: 100%;
+  }
+
   .width-10 {
     width: 10%;
   }

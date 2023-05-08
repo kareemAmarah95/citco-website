@@ -74,7 +74,10 @@ a.navbar-brand {
 }
 
 .about-us-right-half {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-us-bg-image {
@@ -253,9 +256,9 @@ a.navbar-brand {
     width: 90%;
     margin: 0 auto;
     height: 50vh;
+    margin-top: 4rem;
     /* position: absolute;
     top: 100%; */
-    /* height: 50vh; */
   }
 
   .about-us-right-half-caption {

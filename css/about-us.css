@@ -252,11 +252,17 @@ a.navbar-brand {
     font-size: 37.32px !important;
   }
 
+  .about-us-left-half {
+    /* height: fit-content; */
+  }
+
   .about-us-right-half {
     width: 90%;
     margin: 0 auto;
-    height: 50vh;
-    margin-top: 4rem;
+    /* height: 50vh;
+    margin-top: 4rem; */
+    height: 500px;
+    margin-top: 8rem;
     /* position: absolute;
     top: 100%; */
   }

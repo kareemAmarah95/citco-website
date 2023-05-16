@@ -66,11 +66,12 @@ a.navbar-brand {
 
 .about-us-left-half {
   width: 50vw;
-  height: 100vh;
+  height: 150vh;
 }
 
 .about-us-right-half {
-  width: 50vw;
+  /* width: 50vw; */
+  margin-top: 2rem;
 }
 
 .about-us-right-half {
@@ -121,6 +122,11 @@ a.navbar-brand {
   line-height: 25px;
   letter-spacing: 0.7px;
 }
+
+.icon-holder{
+  width: 30px;
+  height: 30px;
+}
 /* About Us Image and Text end */
 /* tablet screen start */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -162,6 +168,11 @@ a.navbar-brand {
 
   .about-us-left-half {
     width: 100%;
+    height: 100vh;
+  }
+
+  .about-us-bg-image{
+    height: 100vh;
   }
 
   /* .about-us-bg-image {
@@ -173,29 +184,26 @@ a.navbar-brand {
   }
 
   .about-us-right-half {
-    width: 90%;
-    margin: 0 auto;
-    position: absolute;
-    top: 100%;
-    height: 50vh;
-    margin-top: 35rem;
-    margin-left: 3rem;
+    /* width: 90%;
+    margin: 0 auto; */
+    height: 0px !important;
+    margin-top: 32rem;
+    align-items: flex-start;
+    margin-left: 6rem;
   }
 
   .about-us-right-half-caption {
+    position: static;
     padding: 0px !important;
     display: block;
-    /* margin-top: 25rem;
-    margin-bottom: 0rem !important; */
   }
+
 
   .about-us-right-half-caption h2 {
     font-size: 21.6px;
     font-weight: 400;
-    line-height: 25.92px;
     width: 90%;
     margin-bottom: 2rem;
-    /* margin-top: 2rem; */
   }
 
   .about-us-right-half-caption p {
@@ -242,6 +250,7 @@ a.navbar-brand {
 
   .about-us-left-half {
     width: 100%;
+    height: 100vh;
   }
 
   .about-us-bg-image {
@@ -261,8 +270,12 @@ a.navbar-brand {
     margin: 0 auto;
     /* height: 50vh;
     margin-top: 4rem; */
-    height: 500px;
+    /* height: 500px; */
+    height: 0px;
+    align-items: flex-start;
+    margin-left: 3rem;
     margin-top: 8rem;
+    /* margin-top: 8rem; */
     /* position: absolute;
     top: 100%; */
   }
